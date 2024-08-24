@@ -17,6 +17,8 @@
 		64CFB7E82C79A64000DA12F9 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CFB7E72C79A64000DA12F9 /* AppetizerListView.swift */; };
 		64CFB7EA2C79A65400DA12F9 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CFB7E92C79A65400DA12F9 /* AccountView.swift */; };
 		64CFB7EC2C79A65E00DA12F9 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CFB7EB2C79A65E00DA12F9 /* OtherView.swift */; };
+		64CFB7EE2C79AECB00DA12F9 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CFB7ED2C79AECB00DA12F9 /* Appetizer.swift */; };
+		64CFB7F02C79B65200DA12F9 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CFB7EF2C79B65200DA12F9 /* AppetizerListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		64CFB7E72C79A64000DA12F9 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 		64CFB7E92C79A65400DA12F9 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		64CFB7EB2C79A65E00DA12F9 /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
+		64CFB7ED2C79AECB00DA12F9 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		64CFB7EF2C79B65200DA12F9 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +105,14 @@
 			isa = PBXGroup;
 			children = (
 				64CFB7BD2C79A5CD00DA12F9 /* AppetizersApp.swift */,
+				64CFB7EF2C79B65200DA12F9 /* AppetizerListCell.swift */,
 				64CFB7BF2C79A5CD00DA12F9 /* AppetizersTabView.swift */,
 				64CFB7C12C79A5CE00DA12F9 /* Assets.xcassets */,
 				64CFB7C32C79A5CE00DA12F9 /* Preview Content */,
 				64CFB7E72C79A64000DA12F9 /* AppetizerListView.swift */,
 				64CFB7E92C79A65400DA12F9 /* AccountView.swift */,
 				64CFB7EB2C79A65E00DA12F9 /* OtherView.swift */,
+				64CFB7ED2C79AECB00DA12F9 /* Appetizer.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -267,9 +273,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				64CFB7EA2C79A65400DA12F9 /* AccountView.swift in Sources */,
+				64CFB7F02C79B65200DA12F9 /* AppetizerListCell.swift in Sources */,
 				64CFB7C02C79A5CD00DA12F9 /* AppetizersTabView.swift in Sources */,
 				64CFB7BE2C79A5CD00DA12F9 /* AppetizersApp.swift in Sources */,
 				64CFB7E82C79A64000DA12F9 /* AppetizerListView.swift in Sources */,
+				64CFB7EE2C79AECB00DA12F9 /* Appetizer.swift in Sources */,
 				64CFB7EC2C79A65E00DA12F9 /* OtherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
