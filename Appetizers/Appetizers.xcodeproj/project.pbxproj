@@ -19,6 +19,12 @@
 		64CFB7EC2C79A65E00DA12F9 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CFB7EB2C79A65E00DA12F9 /* OtherView.swift */; };
 		64CFB7EE2C79AECB00DA12F9 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CFB7ED2C79AECB00DA12F9 /* Appetizer.swift */; };
 		64CFB7F02C79B65200DA12F9 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CFB7EF2C79B65200DA12F9 /* AppetizerListCell.swift */; };
+		64CFB7F22C7C14E300DA12F9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CFB7F12C7C14E300DA12F9 /* NetworkManager.swift */; };
+		64CFB7F42C7C15E400DA12F9 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CFB7F32C7C15E400DA12F9 /* APError.swift */; };
+		64CFB7F62C7C275E00DA12F9 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CFB7F52C7C275D00DA12F9 /* AppetizerListViewModel.swift */; };
+		64CFB7F82C7C2DE800DA12F9 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CFB7F72C7C2DE800DA12F9 /* Alert.swift */; };
+		64CFB7FA2C7C322D00DA12F9 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CFB7F92C7C322D00DA12F9 /* ActivityIndicator.swift */; };
+		64CFB7FC2C7C32BB00DA12F9 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CFB7FB2C7C32BB00DA12F9 /* Color+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +60,12 @@
 		64CFB7EB2C79A65E00DA12F9 /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
 		64CFB7ED2C79AECB00DA12F9 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 		64CFB7EF2C79B65200DA12F9 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
+		64CFB7F12C7C14E300DA12F9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		64CFB7F32C7C15E400DA12F9 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		64CFB7F52C7C275D00DA12F9 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
+		64CFB7F72C7C2DE800DA12F9 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		64CFB7F92C7C322D00DA12F9 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		64CFB7FB2C7C32BB00DA12F9 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +116,10 @@
 		64CFB7BC2C79A5CD00DA12F9 /* Appetizers */ = {
 			isa = PBXGroup;
 			children = (
+				64CFB7FB2C7C32BB00DA12F9 /* Color+Ext.swift */,
 				64CFB7BD2C79A5CD00DA12F9 /* AppetizersApp.swift */,
+				64CFB7F72C7C2DE800DA12F9 /* Alert.swift */,
+				64CFB7F52C7C275D00DA12F9 /* AppetizerListViewModel.swift */,
 				64CFB7EF2C79B65200DA12F9 /* AppetizerListCell.swift */,
 				64CFB7BF2C79A5CD00DA12F9 /* AppetizersTabView.swift */,
 				64CFB7C12C79A5CE00DA12F9 /* Assets.xcassets */,
@@ -113,6 +128,9 @@
 				64CFB7E92C79A65400DA12F9 /* AccountView.swift */,
 				64CFB7EB2C79A65E00DA12F9 /* OtherView.swift */,
 				64CFB7ED2C79AECB00DA12F9 /* Appetizer.swift */,
+				64CFB7F12C7C14E300DA12F9 /* NetworkManager.swift */,
+				64CFB7F32C7C15E400DA12F9 /* APError.swift */,
+				64CFB7F92C7C322D00DA12F9 /* ActivityIndicator.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -273,10 +291,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				64CFB7EA2C79A65400DA12F9 /* AccountView.swift in Sources */,
+				64CFB7F42C7C15E400DA12F9 /* APError.swift in Sources */,
 				64CFB7F02C79B65200DA12F9 /* AppetizerListCell.swift in Sources */,
+				64CFB7F62C7C275E00DA12F9 /* AppetizerListViewModel.swift in Sources */,
+				64CFB7FC2C7C32BB00DA12F9 /* Color+Ext.swift in Sources */,
+				64CFB7FA2C7C322D00DA12F9 /* ActivityIndicator.swift in Sources */,
 				64CFB7C02C79A5CD00DA12F9 /* AppetizersTabView.swift in Sources */,
 				64CFB7BE2C79A5CD00DA12F9 /* AppetizersApp.swift in Sources */,
+				64CFB7F22C7C14E300DA12F9 /* NetworkManager.swift in Sources */,
 				64CFB7E82C79A64000DA12F9 /* AppetizerListView.swift in Sources */,
+				64CFB7F82C7C2DE800DA12F9 /* Alert.swift in Sources */,
 				64CFB7EE2C79AECB00DA12F9 /* Appetizer.swift in Sources */,
 				64CFB7EC2C79A65E00DA12F9 /* OtherView.swift in Sources */,
 			);
