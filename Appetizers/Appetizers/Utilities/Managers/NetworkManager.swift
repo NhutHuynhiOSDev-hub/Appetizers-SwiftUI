@@ -78,5 +78,6 @@ final class NetworkManager {
             self.cache.setObject(image, forKey: cacheKey)
             completed(image)
         }
+        task.resume()
     }
 }

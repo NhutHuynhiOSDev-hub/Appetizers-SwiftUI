@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct OtherView: View {
+struct OrderView: View {
     var body: some View {
         NavigationStack{
             Text("Other View!")
@@ -17,5 +17,5 @@ struct OtherView: View {
 }
 
 #Preview {
-    OtherView()
+    OrderView()
 }
