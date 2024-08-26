@@ -11,6 +11,8 @@ struct AppetizerListView: View {
     
     @StateObject var viewModel = AppetizerListViewModel()
     @State private var appetizers: [Appetizer] = []
+    @State private var isShowingDetail = false
+    @State private var selectdAppetizer: Appetizer?
     
     var body: some View {
         ZStack{
@@ -19,15 +21,26 @@ struct AppetizerListView: View {
                     appetizer in
                     
                     AppetizerListCell(appetizer: appetizer)
+                        .onTapGesture {
+                            selectdAppetizer = appetizer
+                            isShowingDetail = true
+                        }
                 }
                 .listStyle(.plain)
+                .disabled(isShowingDetail)
                 .navigationTitle("🍔 Appetizers")
             }
             .onAppear{
                 viewModel.getAppetizers()
             }
+            .blur(radius: isShowingDetail ? 20 : 0)
+              
+            if isShowingDetail {
+                AppetizerDetailView(appetizer: selectdAppetizer!,
+                                    isShowingDetail: $isShowingDetail)
+            }
             
-            if (viewModel.isLoading) {
+            if viewModel.isLoading {
                 LoadingView()
             }
         }
