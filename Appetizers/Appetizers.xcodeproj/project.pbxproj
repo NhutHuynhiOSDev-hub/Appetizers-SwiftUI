@@ -26,6 +26,7 @@
 		64CFB7FA2C7C322D00DA12F9 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CFB7F92C7C322D00DA12F9 /* ActivityIndicator.swift */; };
 		64CFB7FC2C7C32BB00DA12F9 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CFB7FB2C7C32BB00DA12F9 /* Color+Ext.swift */; };
 		64CFB7FE2C7C3B0600DA12F9 /* RemoveImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CFB7FD2C7C3B0600DA12F9 /* RemoveImage.swift */; };
+		64CFB80D2C7C53B100DA12F9 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CFB80C2C7C53B100DA12F9 /* AppetizerDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		64CFB7F92C7C322D00DA12F9 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		64CFB7FB2C7C32BB00DA12F9 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		64CFB7FD2C7C3B0600DA12F9 /* RemoveImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveImage.swift; sourceTree = "<group>"; };
+		64CFB80C2C7C53B100DA12F9 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 			children = (
 				64CFB7F52C7C275D00DA12F9 /* AppetizerListViewModel.swift */,
 				64CFB7E72C79A64000DA12F9 /* AppetizerListView.swift */,
+				64CFB80C2C7C53B100DA12F9 /* AppetizerDetailView.swift */,
 			);
 			path = AppetizersListView;
 			sourceTree = "<group>";
@@ -407,6 +410,7 @@
 				64CFB7C02C79A5CD00DA12F9 /* AppetizersTabView.swift in Sources */,
 				64CFB7BE2C79A5CD00DA12F9 /* AppetizersApp.swift in Sources */,
 				64CFB7F22C7C14E300DA12F9 /* NetworkManager.swift in Sources */,
+				64CFB80D2C7C53B100DA12F9 /* AppetizerDetailView.swift in Sources */,
 				64CFB7E82C79A64000DA12F9 /* AppetizerListView.swift in Sources */,
 				64CFB7F82C7C2DE800DA12F9 /* Alert.swift in Sources */,
 				64CFB7EE2C79AECB00DA12F9 /* Appetizer.swift in Sources */,
