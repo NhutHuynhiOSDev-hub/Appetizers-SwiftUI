@@ -32,7 +32,7 @@ struct AppetizerDetailView: View {
             HStack(spacing: 40) {
                 NutritionInfo(title: "Calories", value: appetizer.carbs)
                 NutritionInfo(title: "Carbs", value: appetizer.carbs)
-                NutritionInfo(title: "Protein", value: appetizer.protein) 
+                NutritionInfo(title: "Protein", value: appetizer.protein)
             }
         
             Spacer()

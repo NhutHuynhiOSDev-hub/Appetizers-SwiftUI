@@ -10,8 +10,10 @@ import SwiftUI
 final class AppetizerListViewModel: ObservableObject {
     
     @Published var isLoading = false
+    @Published var isShowingDetail = false
     @Published var alertItem: AlertItem?
     @Published var appetizers: [Appetizer] = []
+    @Published var selectdAppetizer: Appetizer?
     
     func getAppetizers() {
         isLoading = true
