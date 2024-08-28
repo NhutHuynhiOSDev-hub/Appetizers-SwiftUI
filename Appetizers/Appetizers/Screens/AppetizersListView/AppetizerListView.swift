@@ -41,10 +41,10 @@ struct AppetizerListView: View {
                 LoadingView()
             }
         }
-        .alert(item: $viewModel.alertItem) { alertIteam in
-            Alert(title: alertIteam.title,
-                  message: alertIteam.message,
-                  dismissButton: alertIteam.dismissButton)
+        .alert(item: $viewModel.alertItem) { alertItem in
+            Alert(title: alertItem.title,
+                  message: alertItem.message,
+                  dismissButton: alertItem.dismissButton)
         }
     }
     
