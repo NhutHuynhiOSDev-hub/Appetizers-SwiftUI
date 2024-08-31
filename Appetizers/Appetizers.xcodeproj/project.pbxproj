@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		64394EB32C7ED6A8006D10E2 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64394EB22C7ED6A8006D10E2 /* AccountViewModel.swift */; };
 		64394EB52C7ED77D006D10E2 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64394EB42C7ED77D006D10E2 /* String+Ext.swift */; };
+		649A95572C82EC8000BA6152 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649A95562C82EC8000BA6152 /* EmptyState.swift */; };
 		64CFB7BE2C79A5CD00DA12F9 /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CFB7BD2C79A5CD00DA12F9 /* AppetizersApp.swift */; };
 		64CFB7C02C79A5CD00DA12F9 /* AppetizersTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CFB7BF2C79A5CD00DA12F9 /* AppetizersTabView.swift */; };
 		64CFB7C22C79A5CE00DA12F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CFB7C12C79A5CE00DA12F9 /* Assets.xcassets */; };
@@ -53,6 +54,7 @@
 /* Begin PBXFileReference section */
 		64394EB22C7ED6A8006D10E2 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		64394EB42C7ED77D006D10E2 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		649A95562C82EC8000BA6152 /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		64CFB7BA2C79A5CD00DA12F9 /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64CFB7BD2C79A5CD00DA12F9 /* AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersApp.swift; sourceTree = "<group>"; };
 		64CFB7BF2C79A5CD00DA12F9 /* AppetizersTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersTabView.swift; sourceTree = "<group>"; };
@@ -105,6 +107,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		649A95552C82EC6C00BA6152 /* Empty States */ = {
+			isa = PBXGroup;
+			children = (
+				649A95562C82EC8000BA6152 /* EmptyState.swift */,
+			);
+			path = "Empty States";
+			sourceTree = "<group>";
+		};
 		64CFB7B12C79A5CD00DA12F9 = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +251,7 @@
 		64CFB8072C7C523C00DA12F9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				649A95552C82EC6C00BA6152 /* Empty States */,
 				64CFB80E2C7C645E00DA12F9 /* Buttons */,
 				64CFB80A2C7C525600DA12F9 /* UIKit Components */,
 				64CFB8092C7C525000DA12F9 /* Cells */,
@@ -436,6 +447,7 @@
 				64394EB52C7ED77D006D10E2 /* String+Ext.swift in Sources */,
 				64CFB80D2C7C53B100DA12F9 /* AppetizerDetailView.swift in Sources */,
 				64CFB7E82C79A64000DA12F9 /* AppetizerListView.swift in Sources */,
+				649A95572C82EC8000BA6152 /* EmptyState.swift in Sources */,
 				64CFB7F82C7C2DE800DA12F9 /* Alert.swift in Sources */,
 				64CFB7EE2C79AECB00DA12F9 /* Appetizer.swift in Sources */,
 				64CFB7EC2C79A65E00DA12F9 /* OrderView.swift in Sources */,
