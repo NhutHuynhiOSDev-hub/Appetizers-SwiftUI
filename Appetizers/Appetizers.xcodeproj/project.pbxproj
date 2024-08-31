@@ -31,6 +31,7 @@
 		64CFB80D2C7C53B100DA12F9 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CFB80C2C7C53B100DA12F9 /* AppetizerDetailView.swift */; };
 		64CFB8102C7C646C00DA12F9 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CFB80F2C7C646C00DA12F9 /* APButton.swift */; };
 		64CFB8122C7C661300DA12F9 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CFB8112C7C661300DA12F9 /* XDismissButton.swift */; };
+		64DE08E92C82E34A008C2BD1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE08E82C82E34A008C2BD1 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		64CFB80C2C7C53B100DA12F9 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		64CFB80F2C7C646C00DA12F9 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		64CFB8112C7C661300DA12F9 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		64DE08E82C82E34A008C2BD1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,6 +279,7 @@
 			isa = PBXGroup;
 			children = (
 				64CFB7ED2C79AECB00DA12F9 /* Appetizer.swift */,
+				64DE08E82C82E34A008C2BD1 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				64CFB7FE2C7C3B0600DA12F9 /* RemoveImage.swift in Sources */,
 				64CFB7F62C7C275E00DA12F9 /* AppetizerListViewModel.swift in Sources */,
 				64CFB7FC2C7C32BB00DA12F9 /* Color+Ext.swift in Sources */,
+				64DE08E92C82E34A008C2BD1 /* User.swift in Sources */,
 				64CFB8102C7C646C00DA12F9 /* APButton.swift in Sources */,
 				64CFB7FA2C7C322D00DA12F9 /* ActivityIndicator.swift in Sources */,
 				64CFB7C02C79A5CD00DA12F9 /* AppetizersTabView.swift in Sources */,
