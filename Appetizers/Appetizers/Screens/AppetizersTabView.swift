@@ -28,13 +28,12 @@ struct AppetizersTabView: View {
                     Image(systemName: "bag")
                     Text("Other")
                 }
+                .badge(order.items.count)
         }
-        .accentColor(.primary)
     }
 }
 
 
 #Preview {
-    AppetizersTabView()
-        .environmentObject(Order())
+    AppetizersTabView().environmentObject(Order())
 }
