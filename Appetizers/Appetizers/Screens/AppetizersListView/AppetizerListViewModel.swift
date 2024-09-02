@@ -50,7 +50,7 @@ import SwiftUI
                 appetizers = try await NetworkManager.shared.getAppetizers()
                 isLoading = false
             } catch {
-                if let apError  = error as? APError {
+                if let apError = error as? APError {
                     switch apError {
                     case .invalidURL:
                         alertItem = AlertContext.invalidURL
