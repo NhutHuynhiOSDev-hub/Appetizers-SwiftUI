@@ -10,14 +10,36 @@ import SwiftUI
 struct AccountView: View {
     
     @StateObject var accountViewModel = AccountViewModel()
+    @FocusState private var focusedTextField: FormTextFields?
+    
+    enum FormTextFields {
+        case firstName, lastName, email
+    }
     
     var body: some View {
         NavigationStack {
             Form {
                 Section(header: Text("Personal Info")) {
                     TextField("First Name: ", text: $accountViewModel.user.firtsName)
+                        .focused($focusedTextField, equals: .firstName)
+                        .onSubmit {
+                            focusedTextField = .lastName
+                        }
+                        .submitLabel(.next)
+                    
                     TextField("Last Name: ", text: $accountViewModel.user.lastName)
+                        .focused($focusedTextField, equals: .lastName)
+                        .onSubmit() {
+                            focusedTextField = .email
+                        }
+                        .submitLabel(.next)
+                    
                     TextField("Email", text: $accountViewModel.user.email)
+                        .focused($focusedTextField, equals: .email)
+                        .onSubmit {
+                            focusedTextField = nil
+                        }
+                        .submitLabel(.send)
                         .keyboardType(.emailAddress)
                          .autocorrectionDisabled()
                         .textInputAutocapitalization(.none)
@@ -38,7 +60,12 @@ struct AccountView: View {
                 }.tint(.brandPrimary)
                 
             }
-            .navigationTitle("🚀  Account")
+            .navigationTitle("🚀 Account")
+            .toolbar {
+                ToolbarItemGroup(placement: .keyboard) {
+                    Button("Dismiss") { focusedTextField = nil }
+                }
+            }
         }
         .onAppear {
             accountViewModel.retrieveUser()
