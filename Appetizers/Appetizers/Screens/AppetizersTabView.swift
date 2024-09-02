@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct AppetizersTabView: View {
+    
+    @EnvironmentObject var order: Order
+    
     var body: some View {
         TabView{
             AppetizerListView()
@@ -26,11 +29,12 @@ struct AppetizersTabView: View {
                     Text("Other")
                 }
         }
-        .accentColor(Color.primary)
+        .accentColor(.primary)
     }
 }
 
 
 #Preview {
     AppetizersTabView()
+        .environmentObject(Order())
 }

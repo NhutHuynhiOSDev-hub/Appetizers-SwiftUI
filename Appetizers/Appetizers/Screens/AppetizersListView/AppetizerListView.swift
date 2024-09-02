@@ -53,4 +53,5 @@ struct AppetizerListView: View {
 
 #Preview { 
     AppetizerListView()
+        .environmentObject(Order())
 }
